@@ -38,28 +38,29 @@ formatter.match({
   "location": "StepDefinition.user_Launch_The_Web_Application()"
 });
 formatter.result({
-  "duration": 15676573980,
+  "duration": 4053042136,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_Enter_The_Username_In_Username_Field()"
 });
 formatter.result({
-  "duration": 96372909,
-  "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d107.0.5304.108)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-SVGC7SM\u0027, ip: \u0027192.168.29.120\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_281\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.108, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\\Users\\karthi\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51216}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 1137511f494591e5c5e59bdc4e1f0b02\n*** Element info: {Using\u003did, value\u003dusername}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat com.adactin.stepdefinition.StepDefinition.user_Enter_The_Username_In_Username_Field(StepDefinition.java:25)\r\n\tat ✽.When user Enter The Username In Username Field(C:/Users/karthi/eclipse-workspace/Adactin_Practice_Example/src/test/java/com/adactin/feature/Adactin.feature:5)\r\n",
-  "status": "failed"
+  "duration": 469002072,
+  "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_Enter_The_Password_In_Password_Field()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 236598787,
+  "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_Click_The_Login_Button_And_It_Navigate_To_Search_Hotel()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1554993693,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 9,
@@ -93,27 +94,29 @@ formatter.match({
   "location": "StepDefinition.user_Select_The_Location_In_Select_Location_DropDown()"
 });
 formatter.result({
-  "duration": 15724282,
-  "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d107.0.5304.108)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-SVGC7SM\u0027, ip: \u0027192.168.29.120\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_281\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.108, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\\Users\\karthi\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51216}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 1137511f494591e5c5e59bdc4e1f0b02\n*** Element info: {Using\u003dxpath, value\u003d//td[@align\u003d\u0027right\u0027]//following::select[@id\u003d\u0027location\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat com.adactin.stepdefinition.StepDefinition.user_Select_The_Location_In_Select_Location_DropDown(StepDefinition.java:38)\r\n\tat ✽.When user Select The Location In Select Location DropDown(C:/Users/karthi/eclipse-workspace/Adactin_Practice_Example/src/test/java/com/adactin/feature/Adactin.feature:10)\r\n",
-  "status": "failed"
+  "duration": 631409374,
+  "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_Select_The_Hotel_In_Select_Hotel_DropDown()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 336281316,
+  "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_Select_The_Room_Type_In_Select_Room_Type_Dropdown()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 316179431,
+  "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_Click_The_Search_Button_And_It_Will_Navigate_To_Select_Hotel()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1473578703,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 15,
@@ -137,15 +140,15 @@ formatter.match({
   "location": "StepDefinition.user_Click_The_Hotel_To_Be_Selected()"
 });
 formatter.result({
-  "duration": 20539952,
-  "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d107.0.5304.108)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-SVGC7SM\u0027, ip: \u0027192.168.29.120\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_281\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.108, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\\Users\\karthi\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51216}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 1137511f494591e5c5e59bdc4e1f0b02\n*** Element info: {Using\u003did, value\u003dradiobutton_0}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat com.adactin.stepdefinition.StepDefinition.user_Click_The_Hotel_To_Be_Selected(StepDefinition.java:65)\r\n\tat ✽.When user Click The Hotel To Be Selected(C:/Users/karthi/eclipse-workspace/Adactin_Practice_Example/src/test/java/com/adactin/feature/Adactin.feature:16)\r\n",
-  "status": "failed"
+  "duration": 257143868,
+  "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_Click_The_Continue_Button_And_It_Will_Navigate_To_Book_Hotel()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1029465459,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 19,
@@ -204,57 +207,64 @@ formatter.match({
   "location": "StepDefinition.user_Enter_The_First_Name_In_First_Name_Field()"
 });
 formatter.result({
-  "duration": 27668560,
-  "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d107.0.5304.108)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-SVGC7SM\u0027, ip: \u0027192.168.29.120\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_281\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.108, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\\Users\\karthi\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51216}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 1137511f494591e5c5e59bdc4e1f0b02\n*** Element info: {Using\u003did, value\u003dfirst_name}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat com.adactin.stepdefinition.StepDefinition.user_Enter_The_First_Name_In_First_Name_Field(StepDefinition.java:76)\r\n\tat ✽.When user Enter The First Name In First Name Field(C:/Users/karthi/eclipse-workspace/Adactin_Practice_Example/src/test/java/com/adactin/feature/Adactin.feature:20)\r\n",
-  "status": "failed"
+  "duration": 251035539,
+  "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_Enter_The_Last_Name_In_Last_Name_Field()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 244169053,
+  "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_Enter_The_Billing_Address_In_Billing_Address_field()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 402234146,
+  "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_Enter_The_Credit_Card_Number_In_Credit_Card_Field()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 253530064,
+  "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_Select_The_Credit_Card_Type()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 282640555,
+  "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_Select_The_Expire_Month()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 318943774,
+  "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_Select_The_Expire_Year()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 330209919,
+  "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_Enter_The_Cvv_Number_In_Cvv_Field()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 205244095,
+  "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_Click_The_Book_Now_Button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 204050949,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 30,
@@ -273,7 +283,7 @@ formatter.match({
   "location": "StepDefinition.user_Logout_The_Conformation_Page()"
 });
 formatter.result({
-  "duration": 152349,
+  "duration": 113364,
   "status": "passed"
 });
 });
